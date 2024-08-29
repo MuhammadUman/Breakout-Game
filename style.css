@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: black;
+}
+body{
+    overflow: hidden;
+}
+.container {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.grid {
+  /* margin: 80px; */
+  position: absolute;
+  width: 570px;
+  height: 300px;
+  border: 1px solid white;
+}
+.block {
+  width: 100px;
+  position: absolute;
+  height: 20px;
+  background-color: blue;
+}
+.user {
+  width: 100px;
+  position: absolute;
+  height: 20px;
+  background-color: purple;
+}
+.ball {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  background-color: red;
+}
+.score_container{
+    display: flex;
+    justify-content: center;
+}
+.value {
+  color: white;
+  text-align: center;
+}
+.score{
+    color: white;
+}
